@@ -148,7 +148,7 @@ void readValues(FILE *fptr, double values[8]) {
     free(buffer);
 }
 
-//custom get line
+//custom get int
 void getPortion(FILE *fptr, char *buffer) {
     int  pos = 0;
     int c;//will be converted into char
